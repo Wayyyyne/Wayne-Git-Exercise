@@ -90,11 +90,17 @@ switch(commands){
     
     case 'delete':
         
-        const removed = tasks.splice(args[0]-1,1);
+        const removed = tasks.splice(args[0]-1 ,1);
         saveTasks();
         console.log(chalk.blue(`already removed: ${removed[0] ? removed[0].task : 'none'}`));
         break;
     
+    case 'undo_last_command':
+        /*
+        pseudo node
+        two method : pushstack() -- whenever receive certain method other tack
+        popstack() -- whenever receive 
+        */
     
     default:
         console.log('invalid commands');

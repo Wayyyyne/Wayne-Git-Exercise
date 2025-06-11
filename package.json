@@ -1,0 +1,23 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "todo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wayyyyne/Wayne-Git-Exercise.git"
+  },
+  "author": "Wayne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wayyyyne/Wayne-Git-Exercise/issues"
+  },
+  "homepage": "https://github.com/Wayyyyne/Wayne-Git-Exercise#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "time-stamp": "^2.2.0"
+  }
+}
