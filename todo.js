@@ -103,5 +103,11 @@ switch(commands){
         */
     
     default:
-        console.log('invalid commands');
+        console.log(chalk.red('Invalid command.\n'));
+        console.log(chalk.yellow('Usage:'));
+        console.log('  node todo.js add "Your task here"');
+        console.log('  node todo.js list');
+        console.log('  node todo.js done <task number>');
+        console.log('  node todo.js delete <task number>');
+    break;
 }
