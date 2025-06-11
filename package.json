@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Wayyyyne/Wayne-Git-Exercise#readme",
   "dependencies": {
-    "chalk": "^5.4.1",
+    "chalk": "^4.1.2",
     "time-stamp": "^2.2.0"
   }
 }
